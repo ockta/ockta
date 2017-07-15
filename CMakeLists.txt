@@ -14,7 +14,8 @@ include_directories(
     include/
     libs/glfw/include/
     libs/glad/include/
-    libs/glm/)
+    libs/glm/
+    libs/nlohmann/)
 
 # Add GLAD as a library
 add_library(glad libs/glad/src/glad.c)
